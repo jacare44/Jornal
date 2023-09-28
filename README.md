@@ -23,3 +23,5 @@ Tem a possibilidade de acessar as notícias propostas pelos professores logo na 
 
 ● HTML - Para montar a estrutura do site.
 ● CSS - Para estilizar o site, deixando o mesmo com todos os aspectos característicos desejados.
+
+https://jacare44.github.io/Jornal/index.html
