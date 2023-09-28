@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Bodoni+Moda:opsz@6..96 & family= Josefin+Sans:wght@200 & display=swap');
+
+body{
+   background-color: rgb(242, 242, 224);
+}
+header{
+    background-color: #9FC7AA;
+    height: 35vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div {
+    width: 35%;
+    text-align: center;
+}
+
+.logo {
+    width: 30px;
+    margin-left: 35px;
+
+}
+
+.div-form {
+    display: flex;
+    align-items: center;
+}
+
+header > div {
+    text-align: center;
+}
+
+header > div > img {
+    width: 200px;
+}
+
+
+.faixa-cor{
+    background-color:rgba(76, 103, 67, 0.208);
+}
+
+header a {
+    color: black;
+   text-decoration: none;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+#pesquisa{
+    border-radius: 6px;
+    border:1px solid black; 
+    padding: 2px;
+}
+
+
+.sessoes{
+    display: flex;
+    gap: 30px;
+   margin-left: 15vw;
+   flex-wrap: wrap;
+   margin-top: 30px;
+}
+
+.sessoes a {
+    max-width: 200px;
+}
+
+.sessoes a div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+.sessoes > a:hover {
+    transform: scale(1.04);
+}
+
+.sessoes img{
+    width: 35vh;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration:overline;
+    color: black;
+}
+
+/*parte do esporte*/
+
+.esportes{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.titulo_esporte{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+#volei{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #75917d;
+}
+
+.foto_volei{
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.sessao_esporte{
+    display: flex;
+}
+
+.texto_esporte{
+    margin-top: 30px;
+}
+.sub_esporte{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.reportagem_esporte{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1.3px;
+    margin-top: 10px;
+    
+}
+
+#futebol{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #75917d;
+}
+
+.foto_futebol{
+    height: 50vh;
+    margin-top: 30px;
+}
+/*parte da musica*/
+
+.primeira-sessao{
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #9FC7AA;
+    border-radius: 10px;
+    width: 300px; 
+    height: 920;
+}
+
+.musica-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin: 1px;
+}
+
+.beatles-imagem{
+    width: 70%;
+}
+
+.primeiro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.segundo-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/*parte de portugues(reportagem)*/
+.titulo_reportagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    color: solid black;
+}
+.sub_reportagem{
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: 1px; 
+    padding: 10px;
+    color: grey;
+}
+
+.primeiro_container-portugues{
+    display: flex;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.separador{
+    border: 1px solid rgb(57, 57, 57);
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.imagem-1{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-1 img{
+    width: 40%;
+}
+
+.titulo-imagem{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.segundo_container-portugues{
+    margin: 10px;
+}
+
+
+/*parte de artes (produção visual)*/
+.titulo_artes{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    color: #75917d;  
+}
+
+.sub_artes{
+    display: flex;
+    margin-top: 3px;
+    text-align: center;
+    letter-spacing: 1px; 
+    margin-left: 25px;
+}
+
+.obras_operarios{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    gap: 10px;
+
+    
+}
+.obras_operarios a{
+    color: #75917d;
+    text-decoration: underline;
+
+}
+.texto_operarios{
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.container_operarios{
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+.nome_artes{
+    color: #75917d;
+}
+
+.releitura{
+    height: 40vh;
+    width: 60vh;
+}
+
+.releitura-agnes{
+    height: 60vh;
+    width: 20vw;
+}
+
+/*parte de biologia(LIV UP)*/
+.container_bio{
+    margin: 50px;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.bloco_bio, .bloco2_bio{
+    display: inline-block;
+    width: 45%;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+
+.bloco2_bio img{
+    height: 40vh;
+    width: 35vw;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.titulo_bio{
+    letter-spacing: 3px;
+    color: #75917d;
+    text-align: center;
+}
+
+.sub_bio{
+    text-align: center;
+    margin-top: 3px;
+    letter-spacing: 1.5px; 
+
+}
+
+.bloco_bio p{
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 1.5px
+    
+    
+}
+
+.texto_bio{
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px;
+    margin-top: 8px;
+    margin-right: 100px;
+}
+
+/*parte de ingles(EMPREGO)*/
+.titulo_ingles{
+    font-size: 30px;
+    text-align: center;
+    color: #75917d;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.sub_ingles{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+.sessao_ingles{
+    display: flex;
+    margin-top: 25px;
+}
+.container_ingles{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-size: 18px;
+}
+.container_ingles p{
+    margin-left: 10px;
+}
+
+.Respondisilities{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #425547;
+}
+.container_ingles ol{
+    margin-left: 30px;
+}
+.container_ingles li{
+    margin-top: 10px;
+}
+.social_worker{
+    height: 55vh;
+    width: 40vw;
+}
+.Requirements{
+    font-size: 23px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: #425547;
+}
+
+.segunda_sessao_ingles{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+}
+
+.container_segunda-sessao{
+    font-size: 18px;
+    width: 50vw;
+
+}
+.container2_segunda-sessao{
+    font-size: 18px;
+    background-color: #9FC7AA;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 15px;
+    border: 3px solid #75917d;
+    margin-left: 100px;
+}
+
+.container2_segunda-sessao li{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+ /* Coluna de Opiniões */
+
+.primeiro-container_co{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 1.5px
+}
+
+.primeiro-container_co p{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.primeiro-container_co img{
+    width: 40%;
+
+}
+
+.titulo-co {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-co h1{
+    color: #75917d;
+}
+
+.segundo-container_co {
+    margin: 22px;
+    display: flex;
+    text-align: justify;
+    letter-spacing: 1.5px
+}
+
+/* É importante fazer cursos?/enem */
+
+.ol-cursos{
+    text-align: justify;
+    margin-top: 45px;
+    width: 800px;
+    margin: auto;
+}
+
+.ol-cursos li{
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+}
+
+.ol-cursos strong {
+    color: #75917d;
+}
+
+.resumo-curso{
+    margin-top: 30px;
+    text-align:justify;
+    font-size: 18px;
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumo-curso img{
+    width: 70vh;
+}
+
+.p-r{
+    width: 500px;
+    
+}
+
+.resumo-curso-pequeno {
+    width: 800px;
+    margin: auto;
+}
+
+/* horoscopo */
+
+.ros{
+
+    margin-top: 50px;
+
+}
+
+.cabeçalho{
+
+    margin-left: 20px;
+
+    display: flex;
+
+    font-size: 20px;
+
+}
+ 
+
+.six{
+
+    margin-top: 30px;
+
+    display: flex;
+
+    margin-left: 40px;
+
+ 
+
+}
+
+ 
+
+.doze{margin-top: 0;
+
+    display: flex;
+
+    margin-left: 40px;
+
+}
+
+.six > a:hover{ 
+    transform: scale(1.04);
+}
+
+.doze > a:hover{ 
+    transform: scale(1.04);
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Bodoni+Moda:opsz@6..96 & family= Josefin+Sans:wght@200 & display=swap');
+
+body{
+   background-color:  #709ac0;
+}
+header{
+    background-color: #709ac0;
+    height: 20vh;
+    margin-top: 20px;
+    background-color: rgba(33, 0, 222, 0.395);;
+   
+}
+
+.T{margin-top: 5px;}
+
+.ros{
+    margin-top: 50px;
+}
+.cabeçalho{
+    margin-left: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.box{
+    border: 1px solid rgb(0, 0, 0);
+    width: 35vw;
+    height: 15vh;
+    padding: 20px;
+}
+
+.box2{
+    border: 1px solid rgb(0, 0, 0);
+    width: 74vw;
+    height: 15vh;
+    padding: 20px;
+    background-color: #709ac0;
+}
+
+.dupla{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.elemento{
+    margin-left: 350px;
+
+}
